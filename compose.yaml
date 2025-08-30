@@ -3,7 +3,8 @@ services:
     build:
           context: .
           dockerfile: Dockerfile
-    image: summary_app_image:TEDed
+    image: summary_app_image
     container_name: summarizer
     volumes:
       - ./transcript_summary:/saved
+
