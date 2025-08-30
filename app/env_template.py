@@ -1,4 +1,5 @@
 # before beginning please remame this file from 'env_template.py' to 'env.py'
+# also make sure to provide all the environment varibales before building and running the container.
 
 #  add channel ID of the YouTube channel for which you want to fetch the feed and get the summaries
 # type(str) example = "UCx8Z14PpntdaxCt2hakbQLQ"
