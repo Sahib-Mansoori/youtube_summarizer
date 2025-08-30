@@ -40,6 +40,11 @@ Everything runs inside Docker, with a self-contained **Firefox + Geckodriver bin
 
 ## 🐳 Setup with Docker
 
+### ⚠️ IMPORTANT: Environment & Secrets
+
+* Please read the `env_template.py` to setup and configure all  environment variables or change the project as you need'.
+* **Telegram Bot Token** and **Chat ID** should be configured in `env.py` file.
+
 ### 1. Build the Docker image
 
 ```bash
@@ -93,13 +98,6 @@ These are installed automatically inside Docker:
 * **Geckodriver** (you must provide matching binary inside `app/`)
 * Python dependencies (`requirements.txt`)
 * System libs: `libgtk-3-0`, `libasound2`, `libnss3`, etc.
-
----
-
-## 📡 Environment & Secrets
-
-* Please read the `env_template.py` to setup and configure all  environment variables or change the project as you need'.
-* **Telegram Bot Token** and **Chat ID** should be configured in `env.py` file.
 
 ---
 
